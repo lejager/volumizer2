@@ -1,0 +1,215 @@
+$text: #666666;
+$font-big: 22px;
+$font-small: 12px;
+$font-family: 'Ubuntu', sans-serif;
+
+big {
+	font-size: $font-big;
+}
+
+body {
+	font-family: $font-family !important;
+}
+
+html {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	background: url('http://www.annmariegianni.com/wp-content/uploads/2014/02/shutterstock_104261645dc5e621-e1393003254682.jpg');
+	background-size: cover;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.container-fluid {
+	background: rgba(255,255,255,0.85);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+form{
+    margin: 10px auto;
+    border-radius: 8px;
+
+	 fieldset{
+	    border: none;
+	}
+	 legend {
+	    font-size: 1.4em;
+	    margin-bottom: 10px;
+	}
+	 input[type="text"],
+	 input[type="date"],
+	 input[type="datetime"],
+	 input[type="email"],
+	 input[type="number"],
+	 input[type="search"],
+	 input[type="time"],
+	 input[type="url"],
+	 textarea,
+	 select,
+	 option { 
+	  background: #fff;
+	  border: none;
+	  border-radius: 4px;
+	  font-size: 22px;
+	  margin: 0;
+	  outline: 0;
+	  padding: 7px 15px;
+	  box-sizing: border-box; 
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box; 
+	  background-color: #fff;
+	  color: $text;
+	  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		margin: 10px 10px 10px 0;
+		height: 50px;
+	}
+
+	 input[type="text"]:focus,
+	 input[type="date"]:focus,
+	 input[type="datetime"]:focus,
+	 input[type="email"]:focus,
+	 input[type="number"]:focus,
+	 input[type="search"]:focus,
+	 input[type="time"]:focus,
+	 input[type="url"]:focus,
+	 textarea:focus,
+	 select:focus{
+	    border: #d2d9dd;
+	}
+	 select{
+	    -webkit-appearance: menulist-button;
+	    // height:35px;
+	}
+	
+	 input[type="submit"],
+	 input[type="button"],
+	 button
+	{
+	    position: relative;
+	    padding: 15px 15px;
+	    color: #FFF;
+	    background: #1abc9c;
+	    font-size: 18px;
+	    text-align: center;
+	    font-style: normal;
+	    border-radius: 4px;
+	    border: none;
+	}
+	 input[type="submit"]:hover,
+	 input[type="button"]:hover
+	{
+	    opacity: .9;
+	}
+}
+
+form.ingredient-edit {
+	input[type="number"] {
+		width: 125px;
+	}
+}
+
+// Placeholder Text
+::-webkit-input-placeholder {
+   color: #ccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc;  
+}
+
+:-ms-input-placeholder {  
+   color: #ccc;  
+}
+
+// Ingredient List
+.ingredient-list {
+	position: relative;
+	font-size: $font-big;
+	list-style: none;
+
+	&:first-child {
+		margin-top: 20px;
+	}
+
+	span {
+		margin-right: 20px;
+	}
+
+	label {
+		padding: 5px;
+	  color: #FFF;
+	  background: #1abc9c; 
+	  position: absolute;
+	  font-size: $font-small;
+	  top: -20px;
+	}
+}
+
+table {
+	table-layout: fixed;
+	margin: 0 auto;
+	width: 100%;
+}
+
+tr {
+	border-bottom: 1px solid #fff;
+}
+
+th, td {
+    padding: 5px !important;
+}
+
+.quantity {
+	text-align: right;
+}
+
+.volumize {
+	background-color: #1abc9c;
+}
+
+.volumizer {
+	padding: 20px;
+
+	label {
+		margin-bottom: 0;
+	}
+
+	input[type="submit"],
+	input[type="button"],
+	form button {
+		background: #FFAE23;
+		width: 100%;
+	}
+
+	input[type="text"],
+	 input[type="date"],
+	 input[type="datetime"],
+	 input[type="email"],
+	 input[type="number"],
+	 input[type="search"],
+	 input[type="time"],
+	 input[type="url"],
+	 textarea,
+	 select,
+	 option { 
+	  font-size: 18px;
+		height: 40px;
+		width: 100%;
+		margin: 10px 0;
+	}
+}
