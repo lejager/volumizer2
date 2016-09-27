@@ -142,8 +142,8 @@ var Ingredients = React.createClass({
   	quantity = quantity / i;
   	quantity = quantity * f;
 
-  	// Normalize serving sizes
-  	switch(unit) {
+  	// Normalize servings
+		switch(unit) {
     	case 'tsp':
     		if (quantity >= 3) {
     			if (quantity % 3 ) {
@@ -242,7 +242,6 @@ var Ingredients = React.createClass({
     			}
     		}
     		break;
-
   	}
 
   	this.state.ingredients[key].quantity = h.round(quantity);
@@ -253,7 +252,7 @@ var Ingredients = React.createClass({
   },
 
   prettify : function(quantRound, unit, remainder, prevUnit) {
-  	return quantRound + ' ' + unit + ' + ' + remainder + ' ' + prevUnit;
+  	return h.round(quantRound) + ' ' + unit + ' + ' + h.round(remainder) + ' ' + prevUnit;
   },
 
   render : function() {
