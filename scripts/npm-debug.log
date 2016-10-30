@@ -1,0 +1,289 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'react-dom' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /Users/matthewjager/sites/volumizer/package.json
+5 warn package.json catch-of-the-day@1.0.0 No description
+6 warn package.json catch-of-the-day@1.0.0 No repository field.
+7 warn package.json catch-of-the-day@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/autobind-decorator/package.json
+9 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/babel/package.json
+10 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/babelify/package.json
+11 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/browser-sync/package.json
+12 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/browserify/package.json
+13 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/connect-history-api-fallback/package.json
+14 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/firebase/package.json
+15 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/gulp/package.json
+16 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-autoprefixer/package.json
+17 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-notify/package.json
+18 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-rename/package.json
+19 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-sass/package.json
+20 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-stylus/package.json
+21 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-uglify/package.json
+22 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-util/package.json
+23 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/history/package.json
+24 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/install/package.json
+25 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/re-base/package.json
+26 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/react/package.json
+27 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/react-addons-css-transition-group/package.json
+28 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/react-catalyst/package.json
+29 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/react-dom/package.json
+30 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/react-mixin/package.json
+31 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/react-router/package.json
+32 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/vinyl-buffer/package.json
+33 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/vinyl-source-stream/package.json
+34 verbose installManyTop reading scoped package data from /Users/matthewjager/sites/volumizer/node_modules/watchify/package.json
+35 info package.json autobind-decorator@1.3.2 No repository field.
+36 info package.json firebase@2.3.1 No license field.
+37 info package.json gulp-notify@2.2.0 No license field.
+38 info package.json gulp-rename@1.2.2 No license field.
+39 info package.json re-base@1.2.1 No license field.
+40 info package.json install@0.1.8 No license field.
+41 info package.json react-catalyst@0.3.0 No license field.
+42 verbose readDependencies loading dependencies from /Users/matthewjager/sites/volumizer/package.json
+43 verbose install react-dom is installed as 15.3.1
+44 silly cache add args [ 'react-dom', null ]
+45 verbose cache add spec react-dom
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'react-dom',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'react-dom',
+46 silly cache add   rawSpec: '',
+46 silly cache add   spec: 'latest',
+46 silly cache add   type: 'tag' }
+47 silly addNamed react-dom@latest
+48 verbose addNamed "latest" is being treated as a dist-tag for react-dom
+49 info addNameTag [ 'react-dom', 'latest' ]
+50 silly mapToRegistry name react-dom
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'react-dom',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   name: 'react-dom',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+55 verbose addNameTag registry:https://registry.npmjs.org/react-dom not in flight; fetching
+56 verbose request uri https://registry.npmjs.org/react-dom
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 8:14:21 PM
+59 verbose request id ed1fc94a1790b4f7
+60 verbose etag "7LT5B6F9E8RFLPWJLO6IUNY1W"
+61 http request GET https://registry.npmjs.org/react-dom
+62 http 200 https://registry.npmjs.org/react-dom
+63 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+63 verbose headers   etag: '"2YMCYSEGNHECMB0N2WCO3EOBQ"',
+63 verbose headers   'content-type': 'application/json',
+63 verbose headers   'content-encoding': 'gzip',
+63 verbose headers   'cache-control': 'max-age=300',
+63 verbose headers   'content-length': '7932',
+63 verbose headers   'accept-ranges': 'bytes',
+63 verbose headers   date: 'Sun, 16 Oct 2016 02:14:22 GMT',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   age: '76',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'x-served-by': 'cache-den6026-DEN',
+63 verbose headers   'x-cache': 'HIT',
+63 verbose headers   'x-cache-hits': '9',
+63 verbose headers   'x-timer': 'S1476584062.003292,VS0,VE0',
+63 verbose headers   vary: 'Accept-Encoding' }
+64 silly get cb [ 200,
+64 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+64 silly get     etag: '"2YMCYSEGNHECMB0N2WCO3EOBQ"',
+64 silly get     'content-type': 'application/json',
+64 silly get     'content-encoding': 'gzip',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     'content-length': '7932',
+64 silly get     'accept-ranges': 'bytes',
+64 silly get     date: 'Sun, 16 Oct 2016 02:14:22 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     age: '76',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-den6026-DEN',
+64 silly get     'x-cache': 'HIT',
+64 silly get     'x-cache-hits': '9',
+64 silly get     'x-timer': 'S1476584062.003292,VS0,VE0',
+64 silly get     vary: 'Accept-Encoding' } ]
+65 verbose get saving react-dom to /Users/matthewjager/.npm/registry.npmjs.org/react-dom/.cache.json
+66 verbose correctMkdir /Users/matthewjager/.npm correctMkdir not in flight; initializing
+67 silly addNameTag next cb for react-dom with tag latest
+68 silly addNamed react-dom@15.3.2
+69 verbose addNamed "15.3.2" is a plain semver version for react-dom
+70 silly mapToRegistry name react-dom
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry data Result {
+73 silly mapToRegistry   raw: 'react-dom',
+73 silly mapToRegistry   scope: null,
+73 silly mapToRegistry   name: 'react-dom',
+73 silly mapToRegistry   rawSpec: '',
+73 silly mapToRegistry   spec: 'latest',
+73 silly mapToRegistry   type: 'tag' }
+74 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+75 verbose addRemoteTarball https://registry.npmjs.org/react-dom/-/react-dom-15.3.2.tgz not in flight; adding
+76 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-dom/-/react-dom-15.3.2.tgz',
+76 verbose addRemoteTarball   'c46b0aa5380d7b838e7a59c4a7beff2ed315531f' ]
+77 info retry fetch attempt 1 at 8:14:22 PM
+78 info attempt registry request try #1 at 8:14:22 PM
+79 http fetch GET https://registry.npmjs.org/react-dom/-/react-dom-15.3.2.tgz
+80 http fetch 200 https://registry.npmjs.org/react-dom/-/react-dom-15.3.2.tgz
+81 silly fetchAndShaCheck shasum c46b0aa5380d7b838e7a59c4a7beff2ed315531f
+82 verbose addTmpTarball /var/folders/l1/22nqvhr90mg_gcvtlzm31yk80000gq/T/npm-29968-8291b510/registry.npmjs.org/react-dom/-/react-dom-15.3.2.tgz not in flight; adding
+83 verbose addTmpTarball already have metadata; skipping unpack for react-dom@15.3.2
+84 verbose correctMkdir /Users/matthewjager/.npm correctMkdir not in flight; initializing
+85 silly cache afterAdd react-dom@15.3.2
+86 verbose afterAdd /Users/matthewjager/.npm/react-dom/15.3.2/package/package.json not in flight; writing
+87 verbose correctMkdir /Users/matthewjager/.npm correctMkdir not in flight; initializing
+88 verbose afterAdd /Users/matthewjager/.npm/react-dom/15.3.2/package/package.json written
+89 silly install resolved [ { name: 'react-dom',
+89 silly install resolved     version: '15.3.2',
+89 silly install resolved     description: 'React package for working with the DOM.',
+89 silly install resolved     main: 'index.js',
+89 silly install resolved     repository:
+89 silly install resolved      { type: 'git',
+89 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+89 silly install resolved     keywords: [ 'react' ],
+89 silly install resolved     license: 'BSD-3-Clause',
+89 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+89 silly install resolved     homepage: 'https://facebook.github.io/react/',
+89 silly install resolved     dependencies: {},
+89 silly install resolved     peerDependencies: { react: '^15.3.2' },
+89 silly install resolved     files:
+89 silly install resolved      [ 'LICENSE',
+89 silly install resolved        'PATENTS',
+89 silly install resolved        'README.md',
+89 silly install resolved        'dist/',
+89 silly install resolved        'index.js',
+89 silly install resolved        'server.js' ],
+89 silly install resolved     scripts: { start: 'node server.js' },
+89 silly install resolved     _id: 'react-dom@15.3.2',
+89 silly install resolved     _shasum: 'c46b0aa5380d7b838e7a59c4a7beff2ed315531f',
+89 silly install resolved     _resolved: 'https://registry.npmjs.org/react-dom/-/react-dom-15.3.2.tgz',
+89 silly install resolved     _from: 'react-dom@latest',
+89 silly install resolved     _npmVersion: '3.10.3',
+89 silly install resolved     _nodeVersion: '6.5.0',
+89 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+89 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+89 silly install resolved     dist:
+89 silly install resolved      { shasum: 'c46b0aa5380d7b838e7a59c4a7beff2ed315531f',
+89 silly install resolved        tarball: 'https://registry.npmjs.org/react-dom/-/react-dom-15.3.2.tgz' },
+89 silly install resolved     _npmOperationalInternal:
+89 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+89 silly install resolved        tmp: 'tmp/react-dom-15.3.2.tgz_1474307217444_0.7416605225298554' },
+89 silly install resolved     directories: {} } ]
+90 info install react-dom@15.3.2 into /Users/matthewjager/sites/volumizer
+91 info installOne react-dom@15.3.2
+92 verbose installOne of react-dom to /Users/matthewjager/sites/volumizer not in flight; installing
+93 verbose correctMkdir /Users/matthewjager/.npm/_locks correctMkdir not in flight; initializing
+94 verbose lock using /Users/matthewjager/.npm/_locks/react-dom-35b648b3546e50f5.lock for /Users/matthewjager/sites/volumizer/node_modules/react-dom
+95 silly install write writing react-dom 15.3.2 to /Users/matthewjager/sites/volumizer/node_modules/react-dom
+96 verbose unbuild node_modules/react-dom
+97 info preuninstall react-dom@15.3.1
+98 info uninstall react-dom@15.3.1
+99 verbose unbuild rmStuff react-dom@15.3.1 from /Users/matthewjager/sites/volumizer/node_modules
+100 info postuninstall react-dom@15.3.1
+101 silly gentlyRm /Users/matthewjager/sites/volumizer/node_modules/react-dom is being purged from base /Users/matthewjager/sites/volumizer
+102 verbose gentlyRm don't care about contents; nuking /Users/matthewjager/sites/volumizer/node_modules/react-dom
+103 silly vacuum-fs purging /Users/matthewjager/sites/volumizer/node_modules/react-dom
+104 silly vacuum-fs quitting because other entries in /Users/matthewjager/sites/volumizer/node_modules
+105 verbose tar unpack /Users/matthewjager/.npm/react-dom/15.3.2/package.tgz
+106 verbose tar unpacking to /Users/matthewjager/sites/volumizer/node_modules/react-dom
+107 silly gentlyRm /Users/matthewjager/sites/volumizer/node_modules/react-dom is being purged
+108 verbose gentlyRm don't care about contents; nuking /Users/matthewjager/sites/volumizer/node_modules/react-dom
+109 silly gunzTarPerm modes [ '755', '644' ]
+110 silly gunzTarPerm extractEntry package.json
+111 silly gunzTarPerm extractEntry README.md
+112 silly gunzTarPerm extractEntry LICENSE
+113 silly gunzTarPerm extractEntry index.js
+114 silly gunzTarPerm extractEntry server.js
+115 silly gunzTarPerm extractEntry PATENTS
+116 silly gunzTarPerm extractEntry dist/react-dom-server.js
+117 silly gunzTarPerm extractEntry dist/react-dom-server.min.js
+118 silly gunzTarPerm extractEntry dist/react-dom.js
+119 silly gunzTarPerm extractEntry dist/react-dom.min.js
+120 verbose write writing to /Users/matthewjager/sites/volumizer/node_modules/react-dom/package.json
+121 info preinstall react-dom@15.3.2
+122 verbose readDependencies loading dependencies from /Users/matthewjager/sites/volumizer/node_modules/react-dom/package.json
+123 silly prepareForInstallMany adding react@^15.3.2 from react-dom peerDependencies
+124 warn peerDependencies The peer dependency react@^15.3.2 included from react-dom will no
+125 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+126 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+127 verbose readDependencies loading dependencies from /Users/matthewjager/sites/volumizer/node_modules/react-dom/package.json
+128 silly install resolved []
+129 verbose about to build /Users/matthewjager/sites/volumizer/node_modules/react-dom
+130 info build /Users/matthewjager/sites/volumizer/node_modules/react-dom
+131 info linkStuff react-dom@15.3.2
+132 silly linkStuff react-dom@15.3.2 has /Users/matthewjager/sites/volumizer/node_modules as its parent node_modules
+133 verbose linkBins react-dom@15.3.2
+134 verbose linkMans react-dom@15.3.2
+135 verbose rebuildBundles react-dom@15.3.2
+136 info install react-dom@15.3.2
+137 info postinstall react-dom@15.3.2
+138 verbose readDependencies loading dependencies from /Users/matthewjager/sites/volumizer/package.json
+139 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/autobind-decorator/package.json
+140 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/babel/package.json
+141 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/babelify/package.json
+142 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/browser-sync/package.json
+143 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/browserify/package.json
+144 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/connect-history-api-fallback/package.json
+145 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/firebase/package.json
+146 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/gulp/package.json
+147 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-autoprefixer/package.json
+148 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-notify/package.json
+149 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-rename/package.json
+150 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-sass/package.json
+151 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-stylus/package.json
+152 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-uglify/package.json
+153 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/gulp-util/package.json
+154 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/history/package.json
+155 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/install/package.json
+156 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/re-base/package.json
+157 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/react/package.json
+158 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/react-addons-css-transition-group/package.json
+159 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/react-catalyst/package.json
+160 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/react-dom/package.json
+161 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/react-mixin/package.json
+162 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/react-router/package.json
+163 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/vinyl-buffer/package.json
+164 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/vinyl-source-stream/package.json
+165 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/watchify/package.json
+166 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/.bin/babel/package.json
+167 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/.bin/babel-external-helpers/package.json
+168 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/.bin/babel-node/package.json
+169 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/.bin/babel-plugin/package.json
+170 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/.bin/browser-sync/package.json
+171 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/.bin/browserify/package.json
+172 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/.bin/gulp/package.json
+173 verbose targetResolver reading package data from /Users/matthewjager/sites/volumizer/node_modules/.bin/watchify/package.json
+174 verbose already installed skipping react@^15.3.2 /Users/matthewjager/sites/volumizer
+175 silly install resolved []
+176 verbose unlock done using /Users/matthewjager/.npm/_locks/react-dom-35b648b3546e50f5.lock for /Users/matthewjager/sites/volumizer/node_modules/react-dom
+177 verbose validateInstall loading /Users/matthewjager/sites/volumizer/package.json for validation
+178 verbose stack Error: The package react@15.3.1 does not satisfy its siblings' peerDependencies requirements!
+178 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+178 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+178 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+178 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+178 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+178 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+178 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+178 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+178 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+178 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+179 verbose cwd /Users/matthewjager/sites/volumizer/scripts
+180 error Darwin 15.6.0
+181 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "react-dom"
+182 error node v4.5.0
+183 error npm  v2.15.9
+184 error code EPEERINVALID
+185 error peerinvalid The package react@15.3.1 does not satisfy its siblings' peerDependencies requirements!
+185 error peerinvalid Peer react-addons-css-transition-group@15.3.1 wants react@^15.3.1
+185 error peerinvalid Peer react-dom@15.3.2 wants react@^15.3.2
+185 error peerinvalid Peer react-router@2.8.0 wants react@^0.14.0 || ^15.0.0
+186 verbose exit [ 1, true ]
