@@ -1,12 +1,12 @@
 {
-  "name": "catch-of-the-day",
+  "name": "recipe-volumizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Volumize recipes to serve many people and convert from US to Metric",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Matt Jager",
   "license": "ISC",
   "engines": {
     "node": ">=4.0.0"
