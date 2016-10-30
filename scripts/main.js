@@ -134,9 +134,9 @@ var Ingredients = React.createClass({
 
   addServings : function(servings) {
 
+    // if current servings isn't updated, load the current servings value from state
     if (isNaN(servings.servingsCurrent) || servings.servingsCurrent === '') {
       servings.servingsCurrent = this.state.servingsCurrent;
-      console.log(this.state.servingsCurrent);
     }
 
   	// update the state object
@@ -187,7 +187,7 @@ var Ingredients = React.createClass({
         
         if (quant && unitQuantity >= quant) {
           remainder = unitQuantity % quant;
-          console.log('remainder',remainder);
+
           // unitQuantity = unitQuantity - remainder;
           unitQuantity = unitQuantity / quant;
           prevUnit = units[i];
@@ -214,18 +214,6 @@ var Ingredients = React.createClass({
     this.state.ingredients[key].totalQuantity = totalQuantity;
     this.state.ingredients[key].renderUnit = renderUnit;
     this.setState({ ingredients : this.state.ingredients });
-  },
-
-  makePretty : function(prettify) {
-    if (prettify) {
-      let ingredients = this.state.ingredients;
-      Object.keys(ingredients).map((key)=>{
-        let currentUnit = ingredients[key].currentUnit;
-        // let remainder = ingredients[key].remainder;
-        let unitQuantity = ingredients[key].unitQuantity;
-        let remainder = unitQuantity % Math.floor(unitQuantity);
-      });
-    }
   },
 
   changeSystem : function(metricSystem) {
@@ -296,11 +284,13 @@ var Ingredients = React.createClass({
           break;
         }
       }
+
       this.state.ingredients[key].initUnit = initUnit;
       this.state.ingredients[key].totalQuantity = totalQuantity;
       this.setState({ ingredients : this.state.ingredients });
     });
 
+    // when the conversion is complete, run calculate servings again to convert from initial quantity to unit quantity
     Object.keys(ingredients).map(this.calculateServings);
   },
 
