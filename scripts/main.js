@@ -396,11 +396,11 @@ var AddIngredientForm = React.createClass({
     var system = this.props.getSystem();
     return (
        <form className="ingredient-edit" ref="ingredientForm" onSubmit={this.createIngredient}>
-			<input type="text" ref="name" placeholder="Ingredient Name" />
 			<input type="number" ref="quantity" placeholder="1" step="any" min="0" />
 			<select ref="unit" placeholder="unit">
         {Object.keys(system).map(this.renderSelect)}
 			</select>
+      <input type="text" ref="name" placeholder="Ingredient Name" />
 			<button type="submit">Add Ingredient</button>
 		</form>
     )
